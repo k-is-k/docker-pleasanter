@@ -4,7 +4,7 @@ Pleasanter ver1.3 より、フレームワークが.NET6に変更されたこと
 
 https://pleasanter.org/blogs/5447919
 
-＃ Special Thanks
+# Special Thanks
 ベースは@yamada28go　さん のdocker-composeを参考にzipファイルから立ち上がるように構築しました。  
 
 **これは何**  
