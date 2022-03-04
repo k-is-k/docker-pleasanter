@@ -1,0 +1,8 @@
+﻿{
+    "DisableTopSiteCreation": true,
+    "DisableGroupAdmin": true,
+    "DisableGroupCreation": true,
+    "DisableApi": false,
+    "SelectorToolTip": "LoginId",
+    "Theme": "sunny"
+}

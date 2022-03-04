@@ -1,0 +1,12 @@
+{    
+        "Dbms": "PostgreSQL",
+        "Provider": "Local",
+        "TimeZoneInfo": "Tokyo Standard Time",
+        "SaConnectionString":"Server=postgres-db;Port=5432;Database=postgres;UID=postgres;PWD=mypass-abc",
+        "OwnerConnectionString":"Server=postgres-db;Port=5432;Database=#ServiceName#;UID=#ServiceName#_Owner;PWD=SetAdminsPWD","UserConnectionString":"Server=postgres-db;Port=5432;Database=#ServiceName#;UID=#ServiceName#_User;PWD=SetUsersPWD",
+        "SqlCommandTimeOut": 600,
+        "MinimumTime": 3,
+        "DeadlockRetryCount": 4,
+        "DeadlockRetryInterval": 1000,
+        "DisableIndexChangeDetection": false
+ }
