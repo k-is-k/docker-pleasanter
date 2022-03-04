@@ -4,9 +4,9 @@ Pleasanter ver1.3 より、フレームワークが.NET6に変更されたこと
 
 https://pleasanter.org/blogs/5447919
 
+# Special Thanks
 ベースは@yamada28go　さん のdocker-composeを参考にzipファイルから立ち上がるように構築しました。  
 
-**@yamada28goさん　紹介リンク**  
 **これは何**  
 
 オープンソースWebDB [プリザンター](https://github.com/Implem/Implem.Pleasanter) を、簡単に起動できるようシングルコンテナにまとめたComposeです。
