@@ -4,3 +4,4 @@
 # パラメータは無視する
 pleasanter/parameters/raw/*
 pleasanter/parameters/customize/*
+data/*
