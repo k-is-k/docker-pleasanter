@@ -35,6 +35,10 @@ COPY pleasanter.sh cmdnetcore/pleasanter.sh
 COPY parameters/init_send Implem.Pleasanter/App_Data/Parameters/
 RUN echo 'export LANG=ja_JP.UTF-8' >> ~/.bashrc
 
+RUN nkf -Lu --overwrite /usr/local/etc/supervisord.conf && \
+	nkf -Lu --overwrite Implem.Pleasanter/App_Data/Parameters/Rds.json &&\
+	nkf -Lu --overwrite cmdnetcore/pleasanter.sh
+RUN chmod 744 cmdnetcore/*.sh
 
 EXPOSE 80 1433
 CMD ["/usr/bin/supervisord", "-n", "-c", "/usr/local/etc/supervisord.conf"]
