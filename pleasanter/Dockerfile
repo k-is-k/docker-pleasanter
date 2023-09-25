@@ -23,9 +23,9 @@ RUN apt-get clean \
 	&& locale-gen ja_JP.UTF-8
 
 # 対象となるコードを取得
-RUN wget https://github.com/Implem/Implem.Pleasanter/releases/download/Pleasanter_1.3.37.0/Pleasanter_1.3.37.0.zip
+RUN wget https://github.com/Implem/Implem.Pleasanter/releases/download/Pleasanter_1.3.46.1/Pleasanter_1.3.46.1.zip
 
-RUN unzip Pleasanter_1.3.37.0.zip
+RUN unzip Pleasanter_1.3.46.1.zip
 RUN cp -a pleasanter ../home/publish/
 
 WORKDIR /home/publish
